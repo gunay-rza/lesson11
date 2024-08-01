@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qeydiyyat1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="bawliq">
+        <h1>Qeydiyyatdan kecin</h1>
+        <p> Istediyiniz kursu secin ve sexsi melumatlaruinizi daxil edin.En<br>
+            zamanda sizinle elaqe saxlayacagiq. </p>
+        <img src="./image0.jpeg" alt="">
+
+    </div>
+
+    <form>
+
+        <fieldset>
+            <p>Kursu secin</p>
+            <select>
+                <option value="kursu secin">kursu secin</option>
+                <option value="Front-end proqranlasdirma kursu">Front-end proqranlasdirma kursu</option>
+                <option value="Python Django ile Back-End proqramlasdirma kursu">Python Django ile Back-End
+                    proqramlasdirma kursu</option>
+                <option value="Full-stack Mern proqranlasdirma kursu">Full-stack Mern proqranlasdirma kursu</option>
+                <option value="IT Helpdesk kursu"></option>
+            </select>
+
+            <label for="adsoyad">
+                Ad Soyad
+                <input type="text" placeholder="Ad ,Soyad" id="adsoyad" autocomplete="off" name="adsoyad" minlength="4"
+                    maxlength="20" required />
+            </label>
+
+
+            <label for="email">
+                Emailiniz
+                <input type="email" placeholder="example@gmail.com" id="email" autocomplete="off" name="email"
+                    required />
+            </label>
+
+            <label for="nomre">
+                Elaqe nomreniz
+                <input type="text" placeholder="0555555555" id="nomre" autocomplete="off" name="adsoyad" required />
+            </label>
+
+            <label for="time">
+                Zeng ucun uygun olan vaxti secin
+                <input type="time" id="vaxt" name="vaxt" required>
+            </label>
+
+            <input type="submit" value="Qeydiyyat ->" />
+
+
+
+        </fieldset>
+    </form>
+    <div class="icons">
+        <p><i class="fa-brands fa-square-whatsapp"></i></p>
+        <p><i class="fa-solid fa-phone-volume"></i></p>
+    </div>
+
+
+
+</body>
+
+</html>

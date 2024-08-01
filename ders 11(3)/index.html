@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buy it</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <ol class="sira">
+        <b>
+            <li> Develop an "Online Order Form by using HTML 5 and CSS</li>
+            <li> A sample Form os given below.You can modify the form design and fields</li>
+            <li> Get the logos of VISA and MASTERCARD,etc.from internet</li>
+            <li> Submit</li>
+            <li> Zip file of your work containing html,css and image files</li>
+        </b>
+    </ol>
+    <form>
+        <fieldset>
+            <h2>Step 1: Your details</h2>
+            <label class="box" for="nameandsurname">
+                Name:
+                <input type="text" placeholder="first and last name" id="nameandsurname" autocomplete="off"
+                    name="nameandsurname" minlength="6" maxlength="25" required />
+            </label>
+
+            <label class="box" for="email">
+                Email:
+                <input type="text" placeholder="example@domain.com" id="email" autocomplete="off" name="email"
+                    required />
+            </label>
+
+            <label class="box" for="phone">
+                Phone:
+                <input type="text" placeholder="Eg. +447500000000" id="phone" autocomplete="off" name="phone"
+                    required />
+            </label>
+
+            <h2>Step 2: Delivery Address</h2>
+            <label class="box" for="Address">
+                Address:
+                <input type="text" id="address" autocomplete="off" name="address" minlength="40" maxlength="100"
+                    required />
+            </label>
+
+            <div class="box1">
+                Country
+                <select>
+                    <option value="Baki">Baki</option>
+                    <option value="Qazax">Qazax</option>
+                    <option value="Seki">Seki</option>
+                    <option value="Quba">Quba</option>
+
+                </select>
+            </div>
+
+
+            <h2>Step3: Card details</h2>
+
+            <div class="box3">
+
+                <label for="VISA">
+                    <i class="fa-brands fa-cc-visa"></i> VISA
+                    <input type="radio" id="visa" name="card" value="visa" />
+                </label>
+
+                <label for="MASTERCARD">
+                    <i class="fa-brands fa-cc-mastercard"></i> MASTERCARD
+                    <input type="radio" id="MASTERCARD" name="card" value="MASTERCARD" />
+                </label>
+
+            </div>
+            <label class="box" for="number">
+                Card number:
+                <input type="text" placeholder="****************" id="number" name="number" minlength="16"
+                    maxlength="16" required />
+
+            </label>
+
+            <label class="box" for="Pasword">
+                Security code:
+                <input type="password" id="password" name="Pasword" minlength="6" maxlength="10" autocomplete="off"
+                    required />
+            </label>
+
+            <label class="box" for="cardname">
+                Name ob card:
+                <input type="text" placeholder="Exact name as on the card" id="cardname" autocomplete="off"
+                    name="cardname" required />
+            </label>
+
+
+            <label>
+                <input class="sonluq" type="submit" value="BUY IT" </label>
+
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+input {
+    display: block;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+fieldset {
+    margin: auto;
+    height: 700px;
+    width: 600px;
+    padding: 60px;
+    margin-top: 50px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 150px;
+}
+
+.submit {
+    background-color: rgb(183, 59, 80);
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-image: linear-gradient(rgba(162, 63, 63, 0.5), rgba(105, 23, 69, 0.5)), url(./premium_photo-1672115680958-54438df0ab82.jpeg);
+    background-size: cover;
+}
